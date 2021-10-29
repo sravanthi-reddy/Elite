@@ -12,6 +12,9 @@ By adding studetns grades from semester college administration can analyse wheth
 
 DataBase
 Name : StudentTechPortfolio
+
+<p>&nbsp;</p>
+
 Table Name : Student
 
 
