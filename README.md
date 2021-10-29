@@ -25,7 +25,7 @@ Following are some screenshots after implementing CRUD operations.
 ![Alt text](/Elite/Images/Home%20Page.jpg?raw=true)
 <p>&nbsp;</p>
 
-**About Application :** : 
+**About Application :** 
 <p>&nbsp;</p>
 
 
@@ -63,7 +63,7 @@ Options to Add, Edit , View and Delete student information :
 <p>&nbsp;</p>
 
 
-**Register New Student** : 
+**Register New Student :** 
 <p>&nbsp;</p>
 
 
@@ -74,7 +74,7 @@ Options to Add, Edit , View and Delete student information :
 <p>&nbsp;</p>
 
 
-**Date Picker**
+**Date Picker :**
 <p>&nbsp;</p>
 
 
@@ -82,7 +82,7 @@ Options to Add, Edit , View and Delete student information :
 <p>&nbsp;</p>
 
 
-**Choose from DropDown**
+**Choose from DropDown :**
 <p>&nbsp;</p>
 
 
@@ -98,14 +98,14 @@ Options to Add, Edit , View and Delete student information :
 <p>&nbsp;</p>
 
 
-**Fill the create form**
+**Fill the create form :**
 <p>&nbsp;</p>
 
 ![Alt text](/Elite/Images/fill%20information.jpg?raw=true)
 
 <p>&nbsp;</p>
 
-**Update Student Information**
+**Update Student Information :**
 <p>&nbsp;</p>
 
 
@@ -118,7 +118,7 @@ Options to Add, Edit , View and Delete student information :
 <p>&nbsp;</p>
 
 
-**View Student Information**
+**View Student Information :**
 ![Alt text](/Elite/Images/View%20informtaion.jpg?raw=true)
 
 <p>&nbsp;</p>
