@@ -101,7 +101,7 @@ Options to Add, Edit , View and Delete student information :
 **Fill the create form**
 <p>&nbsp;</p>
 
-![Alt text](/Elite/Images/choose%fill%20information.jpg?raw=true)
+![Alt text](/Elite/Images/fill%20information.jpg?raw=true)
 
 <p>&nbsp;</p>
 
