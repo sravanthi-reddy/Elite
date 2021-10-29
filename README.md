@@ -115,10 +115,13 @@ Options to Add, Edit , View and Delete student information :
 
 ![Alt text](/Elite/Images/Edit%20Student2.jpg?raw=true)
 
+<p>&nbsp;</p>
 
 
 **View Student Information**
 ![Alt text](/Elite/Images/View%20informtaion.jpg?raw=true)
+
+<p>&nbsp;</p>
 
 
 **Connect to student profiles by clicking on linked in url of interested candidates**
