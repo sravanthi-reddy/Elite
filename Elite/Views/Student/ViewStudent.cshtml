@@ -1,0 +1,132 @@
+﻿@model StudentTechProtfolio.Models.Student
+
+@{
+    ViewData["Title"] = "ViewStudent";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<style>
+
+    dt::after {
+        content: ": ";
+    }
+    dt {
+        float: left;
+        clear: left;
+        margin-right: 5px;
+        font-weight: bold;
+    }
+
+    dd {
+        margin-left: 0px;
+    }
+</style>
+
+<div style="margin: auto; width: 60%; border: 5px solid #51830e; padding: 10px; ">
+    <h4>Student Information</h4>
+    <hr />
+    <dl>
+        <dt>
+            @Html.DisplayNameFor(model => model.ID)
+        </dt>
+        <dd>
+            @Model.ID
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.FirstName)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.FirstName)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.LastName)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.LastName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.MobileNo)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.MobileNo)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.EmailID)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.EmailID)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.CurrentProgram)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.CurrentProgram)
+        </dd>
+        @if (@Model.PostalCode != null)
+        {
+            <dt>
+                @Html.DisplayNameFor(model => model.PostalCode)
+            </dt>
+            <dd>
+                @Html.DisplayFor(model => model.PostalCode)
+            </dd>
+        }
+        <dt>
+            @Html.DisplayNameFor(model => model.DateEnrolled)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.DateEnrolled)
+        </dd>
+        @if (@Model.IndustryExperience != null)
+        {
+            <dt>
+                @Html.DisplayNameFor(model => model.IndustryExperience)
+            </dt>
+            <dd>
+                @Html.DisplayFor(model => model.IndustryExperience)
+            </dd>
+        }
+        @if (@Model.LinkedInProfile != null)
+        {
+            <dt>
+                LinkedIn Profile
+            </dt>
+            <dd>
+                <a target="_blank" href=@Model.LinkedInProfile> @Model.LinkedInProfile </a>
+            </dd>
+        }
+        @if (@Model.GitHubUrl != null)
+        {
+            <dt>
+                GitHub Profile
+            </dt>
+            <dd>
+                <a target="_blank" href=@Model.GitHubUrl> @Model.GitHubUrl </a>
+            </dd>
+        }
+        @if (@Model.StackOverflowUrl != null)
+        {
+            <dt>
+                StackOverflow Url
+            </dt>
+            <dd>
+                <a target="_blank" href=@Model.StackOverflowUrl> @Model.StackOverflowUrl  </a>
+            </dd>
+        }
+        @if (@Model.Skills != null)
+        {
+            <dt>
+                Skills
+            </dt>
+            <dd>
+                @Model.Skills
+            </dd>
+        }
+
+        </dl>
+    <div style="text-align-last: end">
+        @Html.ActionLink("Edit", "Edit", new { studentId = Model.ID }) |
+        <a asp-action="Display">Back to Student List</a>
+    </div>
+</div>
+

@@ -1,6 +1,6 @@
 using System;
 
-namespace Elite.Models
+namespace StudentTechProtfolio.Models
 {
     public class ErrorViewModel
     {

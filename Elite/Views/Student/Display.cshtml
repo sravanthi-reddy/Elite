@@ -1,0 +1,97 @@
+﻿@model IEnumerable<StudentTechProtfolio.Models.Student>
+
+
+@{
+    ViewData["Title"] = "Display";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div style="display : flex; justify-content: space-between">
+
+    <a href="@Url.Action("Create", "Student")" title="Add New Student">
+        <i class='fas fa-plus-circle' style='font-size:24px'></i>
+    </a>
+
+    @using (Html.BeginForm())
+    {
+        <p>
+            Filter By Skill: @Html.TextBox("SearchString")
+            <input style="background: #51830e" type="submit" value="Search" />
+        </p>
+    }
+</div>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Name
+                <a href="@Url.Action("Display", "Student", new { sortOrder = ViewBag.SortName })">
+
+                    @if (ViewBag.SortName == "DescName")
+                    {
+                        <i class='fas fa-sort-alpha-up'></i>
+                    }
+                    else
+                    {
+                        <i class='fas fa-sort-alpha-up-alt'></i>
+                    }
+                </a>    
+
+            </th>
+            <th>
+                Enrolled Date
+                <a href="@Url.Action("Display", "Student", new { sortOrder = ViewBag.SortDate })">
+                    <i class='far fa-calendar-alt'></i>
+                </a>
+            </th>
+            <th>
+                Program
+            </th>
+
+            <th>
+                @Html.DisplayNameFor(model => model.Skills)
+            </th>
+            <th>
+                Industry Experience
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+        <tr>
+
+            <td>
+                @Html.DisplayFor(modelItem => item.FirstName)    @Html.DisplayFor(modelItem => item.LastName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DateEnrolled)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CurrentProgram)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Skills)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IndustryExperience)
+            </td>
+
+            <td>
+                <a href="@Url.Action("ViewStudent", "Student", new { studentId = item.ID })" title="View">
+                    <i class="fa fa-eye" style="font-size:20px"></i>
+                </a> |
+                <a href="@Url.Action("Edit", "Student", new { studentId = item.ID })" title="Edit">
+                    <i class='far fa-edit' style='font-size:20px'></i>
+                </a> |
+@*                @Html.ActionLink("Edit", "Edit", new { studentId = item.ID })
+*@                <a href="@Url.Action("Delete", "Student", new { studentId = item.ID })" title="Delete">
+                    <i class='far fa-trash-alt' style='font-size:20px'></i>
+                </a>
+            </td>
+        </tr>
+        }
+    </tbody>
+</table>

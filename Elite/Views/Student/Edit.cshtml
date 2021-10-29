@@ -1,0 +1,151 @@
+﻿@model StudentTechProtfolio.Models.Student
+
+@{
+    ViewData["Title"] = "Edit";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<h4>Edit Information</h4>
+<hr />
+<div class="row">
+    <div class="col-md-12">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            @Html.HiddenFor(m => m.ID)
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label asp-for="FirstName" class="control-label"></label>
+                        <input asp-for="FirstName" class="form-control" />
+                        <span asp-validation-for="FirstName" class="text-danger"></span>
+                    </div>
+
+
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label asp-for="LastName" class="control-label"></label>
+                        <input asp-for="LastName" class="form-control" />
+                        <span asp-validation-for="LastName" class="text-danger"></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label asp-for="MobileNo" class="control-label"></label>
+                        <input asp-for="MobileNo" class="form-control" />
+                        <span asp-validation-for="MobileNo" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label asp-for="EmailID" class="control-label"></label>
+                        <input asp-for="EmailID" class="form-control" />
+                        <span asp-validation-for="EmailID" class="text-danger"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label asp-for="CurrentProgram" class="control-label"></label>
+                        <select asp-for="CurrentProgram" class="form-control">
+                            <option value="BDAT">BDAT</option>
+                            <option value="MDEV">MDEV</option>
+                            <option value="AIDI">AIDI</option>
+                        </select>
+                        <span asp-validation-for="CurrentProgram" class="text-danger"></span>
+                    </div>
+
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label asp-for="PostalCode" class="control-label"></label>
+                        <input asp-for="PostalCode" class="form-control" />
+                        <span asp-validation-for="PostalCode" class="text-danger"></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label asp-for="DateEnrolled" class="control-label"></label>
+                        <input asp-for="DateEnrolled" class="form-control" />
+                        <span asp-validation-for="DateEnrolled" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label asp-for="IndustryExperience" class="control-label"></label>
+                        <select asp-for="IndustryExperience" class="form-control">
+                            <option value="No Experience">No Experience</option>
+                            <option value="1 Year">1 year</option>
+                            <option value="2 Years">2 years</option>
+                            <option value="3 Years or More">3 Years or More</option>
+                        </select>
+                        <span asp-validation-for="IndustryExperience" class="text-danger"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label asp-for="LinkedInProfile" class="control-label"></label>
+                        <input asp-for="LinkedInProfile" class="form-control" />
+                        <span asp-validation-for="LinkedInProfile" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label asp-for="GitHubUrl" class="control-label"></label>
+                        <input asp-for="GitHubUrl" class="form-control" />
+                        <span asp-validation-for="GitHubUrl" class="text-danger"></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label asp-for="StackOverflowUrl" class="control-label"></label>
+                        <input asp-for="StackOverflowUrl" class="form-control" />
+                        <span asp-validation-for="StackOverflowUrl" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="col-md-6">
+
+                    <div class="form-group">
+                        <label asp-for="Skills" class="control-label"></label>
+                        <input asp-for="Skills" class="form-control" />
+                        <span asp-validation-for="Skills" class="text-danger"></span>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+            <div>
+                <a asp-action="Display" class="btn btn-primary">Back to Student List</a>
+                <input type="submit" value="Update" class="btn btn-primary" />
+
+
+            </div>
+        </form>
+    </div>
+</div>
+
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
