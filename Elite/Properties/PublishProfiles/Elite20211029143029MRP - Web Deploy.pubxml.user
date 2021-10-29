@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAJpgMPiCmj0izh+ICndMg9wAAAAACAAAAAAAQZgAAAAEAACAAAADdf9oFtCgAf76EAqw3nspKdxVgODEdSTdD2loNiNRhUwAAAAAOgAAAAAIAACAAAABok0v2Yd3pFMPuJZPMlPY5eN9fWXrF07253TU+kO5c/YAAAACDGcTqSXXONJc+OcD3ZqMj+36f8YskBUFvSTA1rXbNNKZ82b6ZJA/5Q4Q8Fw5p2i1HeA7oVtlpDAOoLZn6NQq9OseWGsES8YFPla6guKEdgw0U/SHqTKRYOT+FZPwgMccvTX6NO0gtAnkA9le5XdFPWK2++f1/b4IsmzXLUtIaIUAAAADHw4uUSJ7LamjVRrrof+eMSz8ElIf+8Zce+OuS941x69UlnjYybujEg3ewMdhfWe08dFO4lSxg5EJxMdP5V48Y</EncryptedPassword>
+    <History>False|2021-10-29T18:52:02.6808340Z;</History>
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="StudentContext">
+      <Value>Data Source=tcp:elitedbservermrp.database.windows.net,1433%3bInitial Catalog=Elite_db%3bUser Id=DESKTOP-UNIHRT2\Sravanthi Nuthula%40elitedbservermrp%3bPassword=123123</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="StudentTechProtfolio.Data.StudentContext">
+      <Value>Data Source=tcp:elitedbservermrp.database.windows.net,1433%3bInitial Catalog=Elite_db%3bUser Id=DESKTOP-UNIHRT2\Sravanthi Nuthula%40elitedbservermrp%3bPassword=123123</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>
