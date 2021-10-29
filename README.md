@@ -16,7 +16,14 @@ By adding studetns grades from semester college administration can analyse wheth
 Table Name : Student
 <p>&nbsp;</p>
 
-![Alt text](/Elite/Images/database.jpg?raw=true "Optional Title")
+![Alt text](/Elite/Images/TableDesign.jpg?raw=true)
+
+<p>&nbsp;</p>
+**Few Records**
+
+![Alt text](/Elite/Images/DataRecords.jpg?raw=true)
+<p>&nbsp;</p>
+
 
 Following are some screenshots after implementing CRUD operations.
 
