@@ -12,9 +12,9 @@ By adding studetns grades from semester college administration can analyse wheth
 
 DataBase
 Name : StudentTechPortfolio
-<p>&nbsp;</p>
-Table Name : Student
 
+Table Name : Student
+<p>&nbsp;</p>
 
 ![Alt text](/Elite/Images/database.jpg?raw=true "Optional Title")
 
@@ -26,11 +26,15 @@ Home Page : <p>&nbsp;</p>
 <p>&nbsp;</p>
 
 About Application : 
+<p>&nbsp;</p>
+
 
 ![Alt text](/Elite/Images/About.jpg?raw=true)
 <p>&nbsp;</p>
 
 Display Student List
+<p>&nbsp;</p>
+
 
 ![Alt text](/Elite/Images/Student%20List.jpg?raw=true)
 <p>&nbsp;</p>
@@ -60,6 +64,8 @@ Options to Add, Edit , View and Delete student information :
 
 
 Register New Student : 
+<p>&nbsp;</p>
+
 
 ![Alt text](/Elite/Images/create%20screen.jpg?raw=true)
 <p>&nbsp;</p>
@@ -69,12 +75,16 @@ Register New Student :
 
 
 Date Picker
+<p>&nbsp;</p>
+
 
 ![Alt text](/Elite/Images/date%20picker.jpg?raw=true)
 <p>&nbsp;</p>
 
 
 Choose from DropDown
+<p>&nbsp;</p>
+
 
 ![Alt text](/Elite/Images/choose%20from%20options.jpg?raw=true)
 <p>&nbsp;</p>
@@ -89,13 +99,20 @@ Choose from DropDown
 
 
 Fill the create form 
+<p>&nbsp;</p>
+
 
 ![Alt text](/Elite/Images/choose%fill%20information.jpg?raw=true)
+<p>&nbsp;</p>
 
 Update Student Information
+<p>&nbsp;</p>
+
 
 
 ![Alt text](/Elite/Images/Edit%20Student.jpg?raw=true)
+<p>&nbsp;</p>
+
 ![Alt text](/Elite/Images/Edit%20Student2.jpg?raw=true)
 
 
