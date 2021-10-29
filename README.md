@@ -18,5 +18,5 @@ By adding studetns grades from semester college administration can analyse wheth
 Name : StudentTechPortfolio
 Table Name : Student
 
-![Alt text](/relative/path/to/img.jpg?raw=true "Optional Title")
+![Alt text](/Elite/Images/database.jpg?raw=true "Optional Title")
 
