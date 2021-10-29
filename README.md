@@ -59,7 +59,9 @@ Fill the create form
 ![Alt text](/Elite/Images/choose%fill%20information.jpg?raw=true)
 
 Update Student Information
-![Alt text](/Elite/Images/Edit%20information.jpg?raw=true)
+![Alt text](/Elite/Images/Edit%20Student.jpg?raw=true)
+![Alt text](/Elite/Images/Edit%20Student2.jpg?raw=true)
+
 
 
 View Student Information 
