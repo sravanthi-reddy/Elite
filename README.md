@@ -98,11 +98,11 @@ Options to Add, Edit , View and Delete student information :
 <p>&nbsp;</p>
 
 
-**Fill the create form **
+**Fill the create form**
 <p>&nbsp;</p>
 
-
 ![Alt text](/Elite/Images/choose%fill%20information.jpg?raw=true)
+
 <p>&nbsp;</p>
 
 **Update Student Information**
