@@ -12,9 +12,7 @@ By adding studetns grades from semester college administration can analyse wheth
 
 DataBase
 Name : StudentTechPortfolio
-
 <p>&nbsp;</p>
-
 Table Name : Student
 
 
@@ -22,51 +20,73 @@ Table Name : Student
 
 Following are some screenshots after implementing CRUD operations.
 
-Home Page : 
-
+Home Page : <p>&nbsp;</p>
 
 ![Alt text](/Elite/Images/Home%20Page.jpg?raw=true)
+<p>&nbsp;</p>
 
-About Application :
+About Application : 
 
 ![Alt text](/Elite/Images/About.jpg?raw=true)
+<p>&nbsp;</p>
 
 Display Student List
 
 ![Alt text](/Elite/Images/Student%20List.jpg?raw=true)
+<p>&nbsp;</p>
 
 Sort By Name : arrow icon changes based on sorting (a to z ) or (z to a)
 
 ![Alt text](/Elite/Images/Sorting.jpg?raw=true)
+<p>&nbsp;</p>
+
 
 Sort By Date:
 
 ![Alt text](/Elite/Images/Date%20Sorting.jpg?raw=true)
+<p>&nbsp;</p>
+
 
 Filter Students Based on Skill :
 
 ![Alt text](/Elite/Images/search%20python.jpg?raw=true)
+<p>&nbsp;</p>
+
 
 Options to Add, Edit , View and Delete student information :
 
 ![Alt text](/Elite/Images/Edit%20and%20create%20options.jpg?raw=true)
+<p>&nbsp;</p>
+
 
 Register New Student : 
 
 ![Alt text](/Elite/Images/create%20screen.jpg?raw=true)
+<p>&nbsp;</p>
+
 ![Alt text](/Elite/Images/Create%202.jpg?raw=true)
+<p>&nbsp;</p>
+
 
 Date Picker
 
 ![Alt text](/Elite/Images/date%20picker.jpg?raw=true)
+<p>&nbsp;</p>
+
 
 Choose from DropDown
 
 ![Alt text](/Elite/Images/choose%20from%20options.jpg?raw=true)
+<p>&nbsp;</p>
+
 
 ![Alt text](/Elite/Images/choose%20from%20program.jpg?raw=true)
+<p>&nbsp;</p>
+
 
 ![Alt text](/Elite/Images/choose%20from%20options.jpg?raw=true)
+<p>&nbsp;</p>
+
 
 Fill the create form 
 
