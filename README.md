@@ -117,7 +117,7 @@ Options to Add, Edit , View and Delete student information :
 
 
 
-**View Student Information **
+**View Student Information**
 ![Alt text](/Elite/Images/View%20informtaion.jpg?raw=true)
 
 
