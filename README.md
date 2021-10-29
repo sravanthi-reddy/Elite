@@ -14,11 +14,13 @@ DataBase
 Name : StudentTechPortfolio
 Table Name : Student
 
+
 ![Alt text](/Elite/Images/database.jpg?raw=true "Optional Title")
 
 Following are some screenshots after implementing CRUD operations.
 
 Home Page : 
+
 
 ![Alt text](/Elite/Images/Home%20Page.jpg?raw=true)
 
@@ -30,7 +32,11 @@ Display Student List
 
 ![Alt text](/Elite/Images/Student%20List.jpg?raw=true)
 
+Sort By Name : arrow icon changes based on sorting (a to z ) or (z to a)
+
 ![Alt text](/Elite/Images/Sorting.jpg?raw=true)
+
+Sort By Date:
 
 ![Alt text](/Elite/Images/Date%20Sorting.jpg?raw=true)
 
@@ -38,17 +44,21 @@ Filter Students Based on Skill :
 
 ![Alt text](/Elite/Images/search%20python.jpg?raw=true)
 
-Options to edit student information :
+Options to Add, Edit , View and Delete student information :
+
 ![Alt text](/Elite/Images/Edit%20and%20create%20options.jpg?raw=true)
 
 Register New Student : 
+
 ![Alt text](/Elite/Images/create%20screen.jpg?raw=true)
 ![Alt text](/Elite/Images/Create%202.jpg?raw=true)
 
 Date Picker
+
 ![Alt text](/Elite/Images/date%20picker.jpg?raw=true)
 
 Choose from DropDown
+
 ![Alt text](/Elite/Images/choose%20from%20options.jpg?raw=true)
 
 ![Alt text](/Elite/Images/choose%20from%20program.jpg?raw=true)
@@ -56,9 +66,12 @@ Choose from DropDown
 ![Alt text](/Elite/Images/choose%20from%20options.jpg?raw=true)
 
 Fill the create form 
+
 ![Alt text](/Elite/Images/choose%fill%20information.jpg?raw=true)
 
 Update Student Information
+
+
 ![Alt text](/Elite/Images/Edit%20Student.jpg?raw=true)
 ![Alt text](/Elite/Images/Edit%20Student2.jpg?raw=true)
 
