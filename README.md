@@ -1,10 +1,11 @@
 # Elite
-A Web application where technical qualifications of every student is present. Choose best of Student Technical Portfolios
+A Web application where technical qualifications of every student is available. Allows Professors to Choose the best of Student Technical Portfolios
 
 Benifits
-1. Helps faculty to screen the students for Major Research Projects
-2. Current students can use the application to search for alumni and connect them via linkedin and github
-3. Helps the students to analyse and understand the level of their peer students
+
+* Helps faculty to screen the students for Major Research Projects
+* Current students can use the application to search for alumni and connect them via linkedin and github
+* Helps the students to analyse and understand the level of their peer students
 
 Enhancements :
 By adding studetns grades from semester college administration can analyse whether students of no experience are able to score well.
