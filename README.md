@@ -11,8 +11,7 @@ A Web application where technical qualifications of every student is available. 
 By adding studetns grades from semester college administration can analyse whether students of no experience are able to score well.
 
 
-**DataBase**
-Name : StudentTechPortfolio
+**DataBase Name :** StudentTechPortfolio
 
 Table Name : Student
 <p>&nbsp;</p>
