@@ -7,7 +7,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
   <PropertyGroup>
     <TimeStampOfAssociatedLegacyPublishXmlFile />
     <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAJpgMPiCmj0izh+ICndMg9wAAAAACAAAAAAAQZgAAAAEAACAAAADdf9oFtCgAf76EAqw3nspKdxVgODEdSTdD2loNiNRhUwAAAAAOgAAAAAIAACAAAABok0v2Yd3pFMPuJZPMlPY5eN9fWXrF07253TU+kO5c/YAAAACDGcTqSXXONJc+OcD3ZqMj+36f8YskBUFvSTA1rXbNNKZ82b6ZJA/5Q4Q8Fw5p2i1HeA7oVtlpDAOoLZn6NQq9OseWGsES8YFPla6guKEdgw0U/SHqTKRYOT+FZPwgMccvTX6NO0gtAnkA9le5XdFPWK2++f1/b4IsmzXLUtIaIUAAAADHw4uUSJ7LamjVRrrof+eMSz8ElIf+8Zce+OuS941x69UlnjYybujEg3ewMdhfWe08dFO4lSxg5EJxMdP5V48Y</EncryptedPassword>
-    <History>False|2021-10-29T18:52:02.6808340Z;</History>
+    <History>False|2021-10-29T19:02:35.7314854Z;False|2021-10-29T14:57:40.1987048-04:00;False|2021-10-29T14:52:02.6808340-04:00;</History>
   </PropertyGroup>
   <ItemGroup>
     <DestinationConnectionStrings Include="StudentContext">
