@@ -1,5 +1,7 @@
 # Elite
-A Web application where technical qualifications of every student is available. Allows Professors to Choose the best of Student Technical Portfolios
+As **"Elite"** implies it is about choosing the best out there. It helps professors to pick the perfect student for respective MRP and helps current students to find perfect alumni or peer to discuss their technical doubts.
+It is Web application where technical qualifications of every student like skills they know, industry experience they have, LinkedIn url , Github account and what they are studying at the college will be available.
+Anyone using this application can filter the students based on technical skill and connect to them via LinkedIn.
 
 **Benifits :**
 
@@ -132,3 +134,27 @@ Options to Add, Edit , View and Delete student information :
 
 
 **Connect to student profiles by clicking on linked in url of interested candidates**
+
+**=========================== Live Application ================**
+<p>&nbsp;</p>
+
+**Home Page :**
+![Alt text](/Elite/Images/LiveHome.jpg?raw=true)
+
+<p>&nbsp;</p>
+**Live About :**
+![Alt text](/Elite/Images/LiveAbout.jpg?raw=true)
+
+<p>&nbsp;</p>
+
+**Live Create :**
+![Alt text](/Elite/Images/liveCreate.jpg.jpg?raw=true)
+<p>&nbsp;</p>
+
+
+
+
+
+
+
+
