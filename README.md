@@ -2,6 +2,12 @@
 As **"Elite"** implies it is about choosing the best out there. It helps professors to pick the perfect student for respective MRP and helps current students to find perfect alumni or peer to discuss their technical doubts.
 It is Web application where technical qualifications of every student like skills they know, industry experience they have, LinkedIn url , Github account and what they are studying at the college will be available.
 Anyone using this application can filter the students based on technical skill and connect to them via LinkedIn.
+<p>&nbsp;</p>
+
+**Why we need**
+Instead of referring to student resumes everytime when requirement comes, It is crucial to maintain all the information at one place and screen the students based on requirements.
+Considering students update their portfolios when they learn new technologies, It helps college to analyse and predict success rate in finding their dream jobs.
+Administration and Professors can give suggestions for improvement based on what industry requiremets are and what students are actually have.
 
 **Benifits :**
 
